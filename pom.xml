@@ -16,7 +16,6 @@
         <module>scts-core</module>
         <module>renren-generator</module>
         <module>scts-tms</module>
-        <module>scts-service-api</module>
         <module>scts-model</module>
     </modules>
 
