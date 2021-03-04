@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="pers.hao.scts.tms.dao.CourseAttendanceDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="pers.hao.scts.tms.entity.CourseAttendanceEntity" id="courseAttendanceMap">
+        <result property="id" column="id"/>
+        <result property="studentId" column="student_id"/>
+        <result property="courseArrangmentId" column="course_arrangment_id"/>
+        <result property="state" column="state"/>
+        <result property="gmtCreate" column="gmt_create"/>
+        <result property="gmtModified" column="gmt_modified"/>
+    </resultMap>
+
+
+</mapper>

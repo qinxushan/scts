@@ -1,0 +1,41 @@
+package pers.hao.scts.auth.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import springfox.documentation.builders.ApiInfoBuilder;
+import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.oas.annotations.EnableOpenApi;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+
+/**
+ * @author hujiahao
+ * Swagger 的配置类
+ */
+@Configuration
+@EnableOpenApi
+public class SwaggerConfig  {
+
+    @Bean
+    public Docket webApiConfig() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(webApiInfo())
+                .enable(true)
+                .select()
+                .apis(RequestHandlerSelectors.basePackage("pers.hao"))
+                .paths(PathSelectors.any())
+                .build();
+    }
+
+    private ApiInfo webApiInfo(){
+        return new ApiInfoBuilder()
+                .title("网站-课程中心API文档")
+                .description("本文档描述了课程中心微服务接口定义")
+                .version("1.0")
+                .contact(new Contact("HuJiaHao", "https://github.com/wt4437892", "572194044@qq.com")) .build();
+    }
+
+}

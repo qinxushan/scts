@@ -1,0 +1,8 @@
+META-INF/spring-configuration-metadata.json
+pers/hao/scts/gateway/props/SystemProperties.class
+pers/hao/scts/gateway/controller/SwaggerController.class
+pers/hao/scts/gateway/filter/AccessGatewayFilter.class
+pers/hao/scts/gateway/config/BasicConfig.class
+pers/hao/scts/gateway/config/SecurityConfig.class
+pers/hao/scts/gateway/GatewayApplication.class
+pers/hao/scts/gateway/config/SwaggerProvider.class

@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "init-user",
+      "type": "pers.hao.scts.ums.constant.UmcProperties",
+      "sourceType": "pers.hao.scts.ums.constant.UmcProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "init-user.role",
+      "type": "java.lang.Integer",
+      "description": "注册时初始化用户的默认角色.",
+      "sourceType": "pers.hao.scts.ums.constant.UmcProperties"
+    }
+  ],
+  "hints": []
+}

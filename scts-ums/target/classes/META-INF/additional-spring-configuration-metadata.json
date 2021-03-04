@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "init-user.role",
+      "type": "java.lang.String",
+      "description": "注册时初始化用户的默认角色.",
+      "sourceType": "pers.hao.scts.ums.constant.UmcProperties"
+    }
+  ]
+}

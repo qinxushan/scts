@@ -1,0 +1,40 @@
+server:
+  port: 9100
+
+spring:
+  application:
+    name: scts-auth
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/scts-ums?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: jiahao81
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+
+auth:
+  captcha:
+    cache-time: 5
+
+justauth:
+  enabled: true
+  type:
+    GITHUB:
+      client-id: b34c8b0e6909fa9dceec
+      client-secret: b018be3f1c99ccc72a134398a5b5f636f4a5337e
+      redirect-uri: http://localhost:9100/auth/callback/github
+    GITEE:
+      client-id: 2f20d79fde95ae667006c1a4626f26c00525c675cdfda2b485bb40838970279a
+      client-secret: 540c68b172aa9f1e2e6f0b541bc717f2302e4cf2d5f10f760cf9aeab9a98dcfe
+      redirect-uri: http://localhost:9100/auth/callback/gitee
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

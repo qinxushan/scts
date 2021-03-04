@@ -1,0 +1,14 @@
+pers/hao/scts/entity/Captcha.class
+pers/hao/scts/controller/CaptchaController.class
+pers/hao/scts/config/SwaggerConfig.class
+pers/hao/scts/AuthApplication.class
+pers/hao/scts/service/CustomizeUserDetailsService.class
+pers/hao/scts/controller/AuthController.class
+pers/hao/scts/service/impl/CaptchaServiceImpl.class
+pers/hao/scts/config/AuthorizationServerConfig.class
+pers/hao/scts/service/ICaptchaService.class
+pers/hao/scts/config/WebSecurityConfig.class
+pers/hao/scts/social/SocialAuthenticationProvider.class
+pers/hao/scts/granter/CaptchaTokenGranter.class
+pers/hao/scts/granter/SocialTokenGranter.class
+pers/hao/scts/service/impl/UserDetailsServiceImpl.class

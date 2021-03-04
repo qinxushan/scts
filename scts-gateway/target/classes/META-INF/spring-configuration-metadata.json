@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "name": "scts.auth",
+      "type": "pers.hao.scts.gateway.props.SystemProperties",
+      "sourceType": "pers.hao.scts.gateway.props.SystemProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "scts.auth.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用网关鉴权模式",
+      "sourceType": "pers.hao.scts.gateway.props.SystemProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "scts.auth.ignore-url",
+      "type": "java.util.List<java.lang.String>",
+      "description": "忽略URL，List列表形式",
+      "sourceType": "pers.hao.scts.gateway.props.SystemProperties"
+    }
+  ],
+  "hints": []
+}

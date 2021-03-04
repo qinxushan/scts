@@ -1,0 +1,14 @@
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/controller/CaptchaController.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/AuthApplication.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/controller/AuthController.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/config/AuthorizationServerConfig.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/service/CustomizeUserDetailsService.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/service/ICaptchaService.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/config/WebSecurityConfig.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/entity/Captcha.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/granter/CaptchaTokenGranter.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/social/SocialAuthenticationProvider.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/granter/SocialTokenGranter.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/service/impl/UserDetailsServiceImpl.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/config/SwaggerConfig.java
+/Users/hujiahao/Downloads/Project/JavaTest/scts-parent/scts-auth/src/main/java/pers/hao/scts/service/impl/CaptchaServiceImpl.java

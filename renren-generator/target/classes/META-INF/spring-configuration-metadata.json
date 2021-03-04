@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "mongodb",
+      "type": "io.renren.config.MongoConfig",
+      "sourceType": "io.renren.config.MongoConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
